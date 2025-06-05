@@ -16,6 +16,7 @@ import earthTexture from "../assets/earth.jpg";
 import marsTexture from "../assets/mars.jpg";
 import jupiterTexture from "../assets/jupiter.jpg";
 import saturnTexture from "../assets/saturn.jpg";
+import saturnRing from "../assets/saturn-ring.jpg";
 import uranusTexture from "../assets/uranus.jpg";
 import neptuneTexture from "../assets/neptune.jpg";
 
@@ -25,7 +26,6 @@ export default function SolarSystem() {
       <ambientLight intensity={1.5} />
       <StarsBackground />
       <pointLight position={[0, 0, 0]} intensity={2} />
-
       <OrbitControls target={[0, 0, 0]} />
 
       {/* Sun */}
@@ -40,7 +40,7 @@ export default function SolarSystem() {
       <TexturedPlanet orbitRadius={10} orbitSpeed={0.01} size={0.55} textureUrl={earthTexture} />
       <TexturedPlanet orbitRadius={12} orbitSpeed={0.008} size={0.4} textureUrl={marsTexture} />
       <TexturedPlanet orbitRadius={15} orbitSpeed={0.006} size={1.2} textureUrl={jupiterTexture} />
-      <TexturedPlanet orbitRadius={18} orbitSpeed={0.005} size={1} textureUrl={saturnTexture} />
+      <TexturedPlanet orbitRadius={18} orbitSpeed={0.005} size={1} textureUrl={saturnTexture} ringTextureUrl={saturnRing} ringInnerRadius={1.2} ringOuterRadius={2.5}/>
       <TexturedPlanet orbitRadius={21} orbitSpeed={0.004} size={0.8} textureUrl={uranusTexture} />
       <TexturedPlanet orbitRadius={24} orbitSpeed={0.003} size={0.75} textureUrl={neptuneTexture} />
 
