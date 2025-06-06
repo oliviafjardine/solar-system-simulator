@@ -1,9 +1,7 @@
-import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import TexturedPlanet from "./TexturedPlanet";
 import StarsBackground from "./StarsBackground";
-import OrbitRing from "./OrbitRing";
 
 import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";

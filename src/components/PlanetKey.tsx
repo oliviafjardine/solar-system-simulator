@@ -1,5 +1,4 @@
 // src/components/PlanetKey.tsx
-import React from "react";
 import "./PlanetKey.css";
 
 const planetData = {
