@@ -1,54 +1,77 @@
-# React + TypeScript + Vite
+# 🌞 SOLAR-SYSTEM-SIMULATOR
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *Explore the cosmos, ignite your imagination today!*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Last Commit](https://img.shields.io/github/last-commit/oliviafjardine/solar-system-simulator)
+![Top Language](https://img.shields.io/github/languages/top/oliviafjardine/solar-system-simulator)
+![Language Count](https://img.shields.io/github/languages/count/oliviafjardine/solar-system-simulator)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Built with the Tools and Technologies
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- JSON
+- Markdown
+- npm
+- JavaScript
+- React
+- TypeScript
+- Vite
+- ESLint
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📚 Table of Contents
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+
+---
+
+## 🌌 Overview
+
+**SOLAR-SYSTEM-SIMULATOR** is a developer-centric tool that enables the creation of stunning 3D visualizations of our solar system using **React** and **Three.js**.
+
+### 🌟 Why solar-system-simulator?
+
+This project aims to provide an engaging and educational experience while simplifying the development process for creators. The core features include:
+
+- 🌌 **Immersive 3D Visualization**: Create realistic representations of celestial bodies that captivate users.
+- 🔧 **Interactive Components**: Engage users with dynamic elements like planets and orbit rings.
+- 📜 **TypeScript Support**: Enhance code quality and maintainability with strict type-checking.
+- ⚡ **Efficient Development Setup**: Leverage Vite for rapid development and optimized builds.
+- 🌍 **Educational Insights**: Present detailed planetary data to enrich user learning experiences.
+- 🎨 **Customizable Elements**: Easily tweak parameters for planets and orbits to suit various applications.
+
+---
+
+## 🛠️ Getting Started
+
+### ✅ Prerequisites
+
+Ensure you have the following installed:
+
+- **Programming Language**: TypeScript
+- **Package Manager**: npm
+
+---
+
+### 📦 Installation
+
+Build **solar-system-simulator** from source and install dependencies.
+
+```bash
+# Clone the repository
+git clone https://github.com/oliviafjardine/solar-system-simulator
+
+# Navigate to the project directory
+cd solar-system-simulator
+
+# Install dependencies
+npm install
